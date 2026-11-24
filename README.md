@@ -11,7 +11,7 @@ Aplicação da atividade prática de Desenvolvimento Web: frontend estático, AP
 ## Execução local
 
 1. Execute `supabase/schema.sql` no SQL Editor do projeto Supabase.
-2. Copie `.env.example` para `.env` e preencha `SUPABASE_URL` e `SUPABASE_SERVICE_ROLE_KEY`.
+2. Copie `.env.example` para `.env` e preencha `SUPABASE_URL` e `SUPABASE_ANON_KEY`.
 3. Execute `npm install` e `npm start`.
 4. Abra `frontend/index.html`. Para apontar para outra API, defina `window.EVENTS_API_URL` antes de carregar `script.js` ou substitua `API_URL` no arquivo.
 
