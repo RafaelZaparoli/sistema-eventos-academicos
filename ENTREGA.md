@@ -7,7 +7,7 @@ Rafael Zaparoli Nunes
 ## Links do projeto
 
 - Repositório do backend: https://github.com/RafaelZaparoli/sistema-eventos-academicos
-- Repositório do frontend: https://github.com/RafaelZaparoli/sistema-eventos-academicos/tree/main/frontend
+- Repositório do frontend: https://github.com/RafaelZaparoli/eventos-academicos-frontend
 - API publicada no Render: https://sistema-eventos-academicos.onrender.com
 - Aplicação publicada na Vercel: https://eventos-academicos-eta.vercel.app
 - Projeto Supabase: https://supabase.com/dashboard/project/pbzpbicnpomczobdbssz
