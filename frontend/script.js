@@ -1,4 +1,4 @@
-const API_URL = (window.EVENTS_API_URL || 'http://localhost:3000').replace(/\/$/, '');
+const API_URL = (window.EVENTS_API_URL || 'https://sistema-eventos-academicos.onrender.com').replace(/\/$/, '');
 const form = document.querySelector('#event-form');
 const eventsContainer = document.querySelector('#events');
 const feedback = document.querySelector('#feedback');
