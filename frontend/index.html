@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Cadastro e listagem de eventos acadêmicos." />
+    <title>Eventos Acadêmicos</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <main class="container">
+      <header class="hero">
+        <p class="eyebrow">SISTEMA ACADÊMICO</p>
+        <h1>Eventos Acadêmicos</h1>
+        <p class="subtitle">Cadastre, consulte e acompanhe os próximos eventos da comunidade.</p>
+      </header>
+      <section class="layout" aria-label="Gestão de eventos">
+        <form id="event-form" class="card">
+          <div class="section-heading"><span>01</span><h2>Novo evento</h2></div>
+          <label for="titulo">Título</label>
+          <input id="titulo" name="titulo" maxlength="150" required placeholder="Ex.: Seminário de Pesquisa" />
+          <label for="descricao">Descrição</label>
+          <textarea id="descricao" name="descricao" rows="4" maxlength="2000" placeholder="Conte um pouco sobre o evento"></textarea>
+          <div class="form-grid">
+            <div><label for="data_evento">Data</label><input id="data_evento" name="data_evento" required placeholder="DD/MM/AAAA" pattern="\d{2}/\d{2}/\d{4}" /></div>
+            <div><label for="local">Local</label><input id="local" name="local" maxlength="100" required placeholder="Auditório ou sala" /></div>
+          </div>
+          <button type="submit">Cadastrar evento</button>
+          <p id="feedback" class="feedback" role="status"></p>
+        </form>
+        <section class="card events-card">
+          <div class="section-heading"><span>02</span><h2>Eventos cadastrados</h2><button id="refresh" class="icon-button" type="button" aria-label="Atualizar eventos">↻</button></div>
+          <div id="events" class="events-list"><p class="muted">Carregando eventos...</p></div>
+        </section>
+      </section>
+    </main>
+    <script src="./script.js"></script>
+  </body>
+</html>
